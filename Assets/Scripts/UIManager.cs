@@ -34,7 +34,7 @@ public class UIManager : MonoBehaviour
         }
         else if(obstacle == Objects.lives)
         {
-            LivesText.text = value.ToString() + " / 3";
+            LivesText.text = value.ToString();
         }
     }
 
@@ -49,4 +49,4 @@ public class UIManager : MonoBehaviour
     {
         Debug.Log("You Lose!");
     }
-}   
+}
