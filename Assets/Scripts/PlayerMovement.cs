@@ -28,7 +28,7 @@ private void Move()
     Vector3 newPosition = transform.position + movement;
 
     // Clamp position values (use your desired bounds here)
-    newPosition.x = Mathf.Clamp(newPosition.x, -8, 9f);
+    newPosition.x = Mathf.Clamp(newPosition.x, -8, 8f);
     newPosition.y = Mathf.Clamp(newPosition.y, -3.6f, -3.0f);
 
     transform.position = newPosition;

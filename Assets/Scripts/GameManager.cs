@@ -100,8 +100,6 @@ public void HandleBombCollision(string colliderObject)
         Debug.Log("Player Loses!");
         UIManager.Instance.DisplayLoseMessage();
         SceneManager.LoadScene(3);
-        // Stop!
-        StopGame();
     }
 }
     private void StopGame()

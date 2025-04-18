@@ -720,8 +720,12 @@ PrefabInstance:
       value: ScoreTextTitle
       objectReference: {fileID: 0}
     - target: {fileID: 596406692921881345, guid: ca91889d2185943d5b9bab84b4dc6dc2, type: 3}
+      propertyPath: m_text
+      value: Health
+      objectReference: {fileID: 0}
+    - target: {fileID: 596406692921881345, guid: ca91889d2185943d5b9bab84b4dc6dc2, type: 3}
       propertyPath: m_fontSize
-      value: 33.95
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 596406692921881345, guid: ca91889d2185943d5b9bab84b4dc6dc2, type: 3}
       propertyPath: m_fontColor.b
